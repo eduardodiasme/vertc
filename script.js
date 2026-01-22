@@ -120,3 +120,27 @@
         init();
     }, { passive: true });
 })();
+
+// Contact form handler
+(function() {
+    const contactForm = document.getElementById('contactForm');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(contactForm);
+            const data = Object.fromEntries(formData);
+            
+            // Log for now (backend will be implemented later)
+            console.log('Form submitted:', data);
+            
+            // Show success message (temporary)
+            alert('Thank you for your message! We will get back to you soon.\n\n(Backend integration pending)');
+            
+            // Reset form
+            contactForm.reset();
+        });
+    }
+})();
