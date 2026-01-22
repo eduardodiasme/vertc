@@ -31,6 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
 }
 
 .logo h1 {
@@ -56,6 +57,8 @@ header {
     border-radius: 0;
     transition: opacity 0.2s ease;
     display: inline-block;
+    margin-left: auto;
+    align-self: flex-start;
 }
 
 .contact-btn:hover {
@@ -219,7 +222,8 @@ main {
     font-size: 0.95rem;
 }
 
-.contact-item a {
+.contact-item a,
+.contact-item span {
     color: var(--text-secondary);
     text-decoration: none;
     transition: color 0.2s ease;
@@ -227,6 +231,10 @@ main {
 
 .contact-item a:hover {
     color: var(--text-primary);
+}
+
+.contact-item span {
+    cursor: default;
 }
 
 .icon {
