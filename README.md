@@ -31,18 +31,13 @@ This is a static HTML/CSS/JavaScript landing page featuring:
 
 ## Deployment
 
-This is a static site that can be deployed to:
+This is a static site that can be deployed to any static hosting service:
 
-- **GitLab Pages**: Configure in GitLab CI/CD settings
-- **Any Static Hosting**: Netlify, Vercel, GitHub Pages, etc.
+- **Static Hosting**: Netlify, Vercel, GitHub Pages, etc.
 - **Traditional Web Server**: Apache, Nginx, etc.
+- **CDN**: Cloudflare Pages, AWS S3 + CloudFront, etc.
 
-### GitLab Pages Deployment
-
-1. Push this repository to GitLab
-2. Go to Settings > Pages in your GitLab project
-3. Configure the source branch (usually `main` or `master`)
-4. The site will be available at `https://[username].gitlab.io/[project-name]`
+Simply upload the files to your hosting provider's web root directory.
 
 ## Browser Support
 
