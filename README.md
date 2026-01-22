@@ -31,9 +31,20 @@ This is a static HTML/CSS/JavaScript landing page featuring:
 
 ## Deployment
 
+### GitHub Pages
+
+1. Go to your repository settings on GitHub
+2. Navigate to **Settings > Pages**
+3. Under **Source**, select the branch (usually `master` or `main`)
+4. Select the root folder (`/`)
+5. Click **Save**
+6. Your site will be available at `https://eduardodiasme.github.io/vertc/`
+
+### Other Hosting Options
+
 This is a static site that can be deployed to any static hosting service:
 
-- **Static Hosting**: Netlify, Vercel, GitHub Pages, etc.
+- **Static Hosting**: Netlify, Vercel, etc.
 - **Traditional Web Server**: Apache, Nginx, etc.
 - **CDN**: Cloudflare Pages, AWS S3 + CloudFront, etc.
 
